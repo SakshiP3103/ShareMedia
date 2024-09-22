@@ -42,7 +42,7 @@ useEffect(()=>{
             <input type="file"
               ref={fileInputRef}
               style={{display:'none'}}
-              onChange={(e)=>setFile(e.target.files[0 ])}
+              onChange={(e)=>setFile(e.target.files[0])}
             />
 
             <a href={result} target="_blank">{result}</a>
